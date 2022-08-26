@@ -1,12 +1,40 @@
 {
-  "name": "nextjs-template",
+  "name": "nextjs-boilerplate-npm",
+  "description": "a nextjs boilerplate",
+  "license": "MIT",
+  "homepage": "YOUR_GIT_REPO_URL",
+  "author": {
+    "name": "CoderDotJs",
+    "email": "md.akash6724@gmail.com",
+    "url": "https://md-akash.ml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "nextjs",
+    "boilerplate",
+    "tailwindcss"
+  ],
+  "bugs": {
+    "url": "YOUR_GIT_REPO_URL/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=5.0.0",
+    "yarn": "please-use-npm"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "inspect-dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.2.5",
@@ -14,7 +42,12 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "cross-env": "^7.0.3",
     "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
   }
 }
