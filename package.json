@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-boilerplate-npm",
-  "description": "a nextjs boilerplate",
+  "name": "nextjs-firebase-npm",
+  "description": "a nextjs boilerplate with firebase",
   "license": "MIT",
   "homepage": "YOUR_GIT_REPO_URL",
   "author": {
@@ -15,7 +15,8 @@
   "keywords": [
     "nextjs",
     "boilerplate",
-    "tailwindcss"
+    "tailwindcss",
+    "firebase"
   ],
   "bugs": {
     "url": "YOUR_GIT_REPO_URL/issues"
